@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 93.75%; }
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #d6e2f0; }
+
+h1 {
+  font-size: 1.5rem; }
+
+p {
+  font-size: 1rem; }
+
+.text-link {
+  color: #1f3251;
+  text-decoration: none; }
+
+.container {
+  margin: auto;
+  width: 20rem; }
+
+.card {
+  margin-top: 2.5rem;
+  width: 100%;
+  background-color: white;
+  padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+  border-radius: 1.5rem;
+  text-align: center; }
+  .card__image {
+    width: 100%; }
+    .card__image img {
+      border-radius: 1rem;
+      width: 100%; }
+  .card__title {
+    color: #1f3251;
+    margin-top: 1rem; }
+  .card__text {
+    margin-top: .7rem;
+    color: #7b879d; }
+
+footer {
+  color: #7b879d;
+  margin: 2rem auto;
+  text-align: center; }
